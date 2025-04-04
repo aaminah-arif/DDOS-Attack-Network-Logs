@@ -1,7 +1,7 @@
 # Network Traffic Dataset for KNN Classification
 
 ## Overview
-This dataset contains approximately 2.1 million labeled network log entries capturing various types of network traffic and attacks. The goal is to classify network traffic using the K-Nearest Neighbors (KNN) algorithm.
+This dataset contains approximately 2.1 million labeled network log entries capturing various types of network traffic and attacks. The goal is to classify network traffic using the K-Nearest Neighbors (KNN) algorithm. We will be using a short verison of the dataset.
 
 ## Dataset Description
 The dataset consists of labeled network logs that categorize traffic into five classes:
