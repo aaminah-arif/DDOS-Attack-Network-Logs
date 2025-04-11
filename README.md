@@ -1,21 +1,21 @@
-# Network Traffic Dataset for KNN Classification
+# 🌐 Network Traffic Dataset for KNN Classification
 
-## Overview
-This dataset contains approximately 2.1 million labeled network log entries capturing various types of network traffic and attacks. The goal is to classify network traffic using the K-Nearest Neighbors (KNN) algorithm. We will be using a short verison of the dataset.
+## 📖 Overview
+This dataset contains approximately **2.1 million labeled network log entries** that capture various types of network traffic and attacks. The goal is to classify network traffic using the **K-Nearest Neighbors (KNN)** algorithm. In this version of the dataset, a **shortened subset** will be used for model training and evaluation.
 
-## Dataset Description
-The dataset consists of labeled network logs that categorize traffic into five classes:
+## 📊 Dataset Description
+The dataset includes labeled network logs that categorize traffic into **five classes**:
 
-- **Normal** (Benign network traffic)
-- **UDP-Flood** (Denial of Service attack using UDP packets)
-- **Smurf** (Denial of Service attack involving ICMP packets)
-- **SIDDOS** (Simulated Distributed Denial of Service attack)
-- **HTTP-FLOOD** (Denial of Service attack targeting HTTP services)
+- **Normal**: Benign network traffic
+- **UDP-Flood**: Denial of Service (DoS) attack using UDP packets
+- **Smurf**: Denial of Service (DoS) attack involving ICMP packets
+- **SIDDOS**: Simulated Distributed Denial of Service (DDoS) attack
+- **HTTP-FLOOD**: Denial of Service (DoS) attack targeting HTTP services
 
 Each record in the dataset contains attributes related to network traffic, including packet details, node information, and traffic characteristics.
 
-## Attributes
-The dataset includes the following attributes:
+## 📋 Attributes
+The dataset contains the following attributes:
 
 ```
 - SRC_ADD (numeric): Source address of the packet
@@ -48,23 +48,24 @@ The dataset includes the following attributes:
 - PKT_CLASS (categorical): Classification label for the packet (Normal, UDP-Flood, Smurf, SIDDOS, HTTP-FLOOD)
 ```
 
-## Classification Task
-We aim to use the **K-Nearest Neighbors (KNN)** algorithm to classify network traffic into one of the five categories based on the provided attributes. The dataset includes both numerical and categorical features, requiring preprocessing steps such as:
+
+## 🧠 Classification Task
+The primary objective is to use the **K-Nearest Neighbors (KNN)** algorithm to classify network traffic into one of the five categories based on the provided attributes. The dataset consists of both **numerical** and **categorical** features, requiring the following preprocessing steps:
 
 - Encoding categorical features
-- Feature scaling for numeric attributes
-- Handling class imbalance if necessary
+- Feature scaling for numerical attributes
+- Handling class imbalance (if necessary)
 
+## 🔍 Potential Applications
+- **Intrusion Detection Systems (IDS)**: Detecting malicious activity in real-time.
+- **Network Security Analysis**: Analyzing traffic to identify patterns and vulnerabilities.
+- **Traffic Pattern Analysis**: Understanding the normal flow of traffic and identifying anomalies.
+- **Cyberattack Mitigation**: Building systems to mitigate the effects of DDoS and other network-based attacks.
 
-## Potential Applications
-- Intrusion Detection Systems (IDS)
-- Network Security Analysis
-- Traffic Pattern Analysis
-- Cyberattack Mitigation Strategies
-
-## Acknowledgments
-This dataset is provided for research and educational purposes in cybersecurity and machine learning. Proper attribution should be given when using the dataset in projects or publications.
+## 🙏 Acknowledgments
+This dataset is provided for **research and educational purposes** in the fields of cybersecurity and machine learning. Proper attribution should be given when using the dataset in projects, research papers, or publications.
 
 ---
-**Contact:** If you have any questions or require further details, feel free to reach out!
 
+### 📧 Contact
+If you have any questions or require further details, feel free to reach out!
