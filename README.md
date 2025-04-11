@@ -62,7 +62,7 @@ The primary objective is to use the **K-Nearest Neighbors (KNN)** algorithm to c
 - **Traffic Pattern Analysis**: Understanding the normal flow of traffic and identifying anomalies.
 - **Cyberattack Mitigation**: Building systems to mitigate the effects of DDoS and other network-based attacks.
 
-## 🙏 Acknowledgments
+## 📝 Acknowledgments
 This dataset is provided for **research and educational purposes** in the fields of cybersecurity and machine learning. Proper attribution should be given when using the dataset in projects, research papers, or publications.
 
 ---
